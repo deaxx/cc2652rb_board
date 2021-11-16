@@ -3961,7 +3961,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="U2" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_AP2112" device="K-3.3V" package3d_urn="urn:adsk.eagle:package:39060/1" value="3.3V"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_"/>
+<part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_" value="220uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="1.0uF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
@@ -4122,8 +4122,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <instance part="GND8" gate="1" x="218.44" y="15.24" smashed="yes">
 <attribute name="VALUE" x="215.9" y="12.7" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="271.78" y="83.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="274.32" y="81.28" size="1.778" layer="96" rot="R90"/>
+<instance part="GND9" gate="1" x="271.78" y="81.28" smashed="yes" rot="R90">
+<attribute name="VALUE" x="274.32" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND10" gate="1" x="358.14" y="35.56" smashed="yes">
 <attribute name="VALUE" x="355.6" y="33.02" size="1.778" layer="96"/>
@@ -4581,14 +4581,14 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="152.4" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="19"/>
-<wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
-<label x="228.6" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="RXD"/>
 <wire x1="78.74" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
 <label x="81.28" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="15"/>
+<wire x1="261.62" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
+<label x="261.62" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4854,13 +4854,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="15"/>
-<wire x1="261.62" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="14"/>
 <wire x1="261.62" y1="81.28" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="81.28" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
-<junction x="269.24" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -4967,6 +4963,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <junction x="109.22" y="58.42"/>
 <wire x1="104.14" y1="58.42" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="19"/>
+<wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
+<label x="231.14" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT" class="0">

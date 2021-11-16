@@ -188,12 +188,11 @@
 <wire x1="25.1" y1="1.7" x2="23" y2="-0.1" width="0.0762" layer="20" curve="-87.151812"/>
 <wire x1="22.7" y1="57.2" x2="25.1" y2="54.7" width="0.0762" layer="20" curve="-100.154267"/>
 <text x="7.9" y="32.7" size="1.27" layer="25" font="vector" rot="R90">JLCJLCJLCJLC</text>
-<text x="2.9" y="48.1" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">TX</text>
-<text x="22.5" y="40.4" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">RX</text>
+<text x="22.6" y="37.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">TX3</text>
+<text x="22.5" y="40" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">RX2</text>
 <text x="22.5" y="43.3" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">1</text>
 <text x="22.6" y="45.9" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">0</text>
 <text x="22.5" y="47.7" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">RST</text>
-<text x="22.6" y="37.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">GND</text>
 <text x="22.6" y="34.9" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">GND</text>
 <text x="22.6" y="32.8" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">30</text>
 <text x="22.6" y="30.3" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">29</text>
@@ -208,8 +207,8 @@
 <text x="22.6" y="7.4" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">20</text>
 <text x="22.6" y="4.8" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">19</text>
 <text x="22.7" y="2.2" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">18</text>
-<text x="2.9" y="45.2" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">SCL</text>
-<text x="3" y="42.6" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">SDA</text>
+<text x="2.9" y="45.2" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">SC4</text>
+<text x="3" y="42.4" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">SD5</text>
 <text x="3" y="40.9" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">6</text>
 <text x="2.9" y="38.2" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">7</text>
 <text x="3" y="35.6" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">8</text>
@@ -232,6 +231,7 @@
 <text x="2.8" y="40.2" size="1.27" layer="26" rot="MR90">t.me/deaxx</text>
 <text x="7.6" y="28" size="0.8128" layer="25" font="vector" ratio="12">JTAG</text>
 <text x="5.7" y="21.5" size="1.778" layer="25" font="vector" ratio="12">.</text>
+<text x="2.9" y="47.5" size="0.8128" layer="25" font="vector" ratio="12" rot="R90">GND</text>
 </plain>
 <libraries>
 <library name="E72-2G4M05S1F">
@@ -1673,7 +1673,6 @@ design rules under a new name.</description>
 <via x="22.4" y="47" extent="1-16" drill="0.3"/>
 <wire x1="20.7" y1="46.44" x2="21.84" y2="46.44" width="0.2" layer="1"/>
 <wire x1="21.84" y1="46.44" x2="22.4" y2="47" width="0.2" layer="1"/>
-<contactref element="J2" pad="15"/>
 <contactref element="J2" pad="14"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R3" pad="1"/>
@@ -1773,8 +1772,8 @@ design rules under a new name.</description>
 <via x="6.1" y="40.5" extent="1-16" drill="0.3"/>
 <via x="15.3" y="42.9" extent="1-16" drill="0.3"/>
 <via x="7.3" y="42.9" extent="1-16" drill="0.3"/>
-<via x="14" y="19.7" extent="1-16" drill="0.3"/>
-<via x="5.2" y="21.4" extent="1-16" drill="0.3"/>
+<via x="14.6" y="20.5" extent="1-16" drill="0.3"/>
+<via x="5" y="21.4" extent="1-16" drill="0.3"/>
 <via x="5.6" y="8.1" extent="1-16" drill="0.3"/>
 <via x="17.1" y="9.9" extent="1-16" drill="0.3"/>
 <via x="16.3" y="12.8" extent="1-16" drill="0.3"/>
@@ -1793,8 +1792,7 @@ design rules under a new name.</description>
 <via x="12.1" y="38.1" extent="1-16" drill="0.3"/>
 <via x="17.2" y="43" extent="1-16" drill="0.3"/>
 <via x="5.9" y="39.5" extent="1-16" drill="0.3"/>
-<via x="5.6" y="44.8" extent="1-16" drill="0.3"/>
-<via x="12.6" y="21.1" extent="1-16" drill="0.3"/>
+<via x="12.8" y="20.5" extent="1-16" drill="0.3"/>
 <via x="12.8" y="26.5" extent="1-16" drill="0.3"/>
 <via x="5.5" y="26.8" extent="1-16" drill="0.3"/>
 <via x="8.3" y="27.9" extent="1-16" drill="0.3"/>
@@ -1806,13 +1804,18 @@ design rules under a new name.</description>
 <via x="6.4" y="7" extent="1-16" drill="0.3"/>
 <via x="14.6" y="18.7" extent="1-16" drill="0.3"/>
 <via x="18.3" y="22.1" extent="1-16" drill="0.3"/>
-<via x="7.5" y="44.7" extent="1-16" drill="0.3"/>
-<via x="16.3" y="44.7" extent="1-16" drill="0.3"/>
 <via x="4.7" y="10.4" extent="1-16" drill="0.3"/>
-<via x="19.4" y="44.9" extent="1-16" drill="0.3"/>
 <via x="22.5" y="44.9" extent="1-16" drill="0.3"/>
 <via x="4.9" y="2.9" extent="1-16" drill="0.3"/>
 <via x="19.8" y="2.8" extent="1-16" drill="0.3"/>
+<contactref element="J1" pad="19"/>
+<via x="9.1" y="45.1" extent="1-16" drill="0.3"/>
+<via x="13.3" y="45.1" extent="1-16" drill="0.3"/>
+<via x="17.2" y="45" extent="1-16" drill="0.3"/>
+<via x="19.4" y="41.4" extent="1-16" drill="0.3"/>
+<via x="7" y="45" extent="1-16" drill="0.3"/>
+<via x="5.6" y="45" extent="1-16" drill="0.3"/>
+<via x="21.4" y="6.6" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="RESET">
 <contactref element="J2" pad="19"/>
@@ -2213,18 +2216,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO_3">
 <contactref element="U1" pad="1"/>
-<contactref element="J1" pad="19"/>
-<wire x1="4.31" y1="46.44" x2="3.18" y2="46.44" width="0.2" layer="1"/>
-<wire x1="3.18" y1="46.44" x2="1" y2="48.62" width="0.2" layer="1"/>
 <contactref element="IC2" pad="25"/>
 <wire x1="3.6494" y1="31.854025" x2="4.295375" y2="32.5" width="0.2" layer="16"/>
 <wire x1="5.8" y1="32.5" x2="6.3" y2="33" width="0.2" layer="16"/>
 <wire x1="6.3" y1="33" x2="6.3" y2="36.9" width="0.2" layer="16"/>
 <wire x1="5.7" y1="37.5" x2="3.8" y2="37.5" width="0.2" layer="16"/>
 <wire x1="3.8" y1="37.5" x2="3.3" y2="38" width="0.2" layer="16"/>
-<wire x1="3.3" y1="38" x2="3.3" y2="45.2" width="0.2" layer="16"/>
-<wire x1="3.3" y1="45.2" x2="4.5" y2="46.4" width="0.2" layer="16"/>
-<wire x1="4.5" y1="46.4" x2="5.6" y2="46.4" width="0.2" layer="16"/>
+<wire x1="3.3" y1="38" x2="3.3" y2="45.6" width="0.2" layer="16"/>
+<wire x1="3.3" y1="45.6" x2="4.1" y2="46.4" width="0.2" layer="16"/>
+<wire x1="4.1" y1="46.4" x2="5.6" y2="46.4" width="0.2" layer="16"/>
 <wire x1="4.295375" y1="32.5" x2="5.8" y2="32.5" width="0.2" layer="16"/>
 <wire x1="6.3" y1="36.9" x2="5.7" y2="37.5" width="0.2" layer="16"/>
 <via x="5.6" y="46.4" extent="1-16" drill="0.3"/>
@@ -2237,6 +2237,17 @@ design rules under a new name.</description>
 <wire x1="3.6494" y1="31.854025" x2="3.6494" y2="16.752225" width="0.2" layer="16"/>
 <wire x1="4.3" y1="16.1" x2="4.3" y2="16.101625" width="0.2" layer="16"/>
 <wire x1="4.3" y1="16.101625" x2="3.6494" y2="16.752225" width="0.2" layer="16"/>
+<contactref element="J2" pad="15"/>
+<wire x1="5.6" y1="46.4" x2="7.1" y2="46.4" width="0.2" layer="16"/>
+<wire x1="7.8" y1="45.7" x2="7.8" y2="44.7" width="0.2" layer="16"/>
+<wire x1="7.8" y1="44.7" x2="8.2476" y2="44.2524" width="0.2" layer="16"/>
+<wire x1="7.1" y1="46.4" x2="7.8" y2="45.7" width="0.2" layer="16"/>
+<wire x1="21.1" y1="39.7" x2="22.4" y2="38.4" width="0.2" layer="16"/>
+<wire x1="22.4" y1="38.4" x2="23.77" y2="38.4" width="0.2" layer="16"/>
+<wire x1="23.77" y1="38.4" x2="23.83" y2="38.46" width="0.2" layer="16"/>
+<wire x1="8.2476" y1="44.2524" x2="19.6476" y2="44.2524" width="0.2" layer="16"/>
+<wire x1="19.6476" y1="44.2524" x2="21.1" y2="42.8" width="0.2" layer="16"/>
+<wire x1="21.1" y1="42.8" x2="21.1" y2="39.7" width="0.2" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="23"/>
