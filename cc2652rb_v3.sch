@@ -1362,51 +1362,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="1206" urn="urn:adsk.eagle:footprint:37399/1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="0805" urn="urn:adsk.eagle:footprint:37400/1">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
-</package>
-<package name="1210" urn="urn:adsk.eagle:footprint:37401/1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
-<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
-<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
-<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
-<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
-<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
 <package name="0402" urn="urn:adsk.eagle:footprint:37389/1" locally_modified="yes">
 <description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -1469,27 +1424,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <packageinstance name="0603"/>
 </packageinstances>
 </package3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box">
-<description>Generic 3216 (1206) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box">
-<description>Generic 2012 (0805) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
-</package3d>
-<package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box">
-<description>Generic 3225 (1210) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
-</package3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:37413/1" type="box">
 <description>Generic 1005 (0402) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
@@ -1520,159 +1454,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="10UF" prefix="C">
-<description>&lt;h3&gt;10.0µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-6.3V-20%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11015"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-6.3V-20%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-10057"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-10V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11330"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1210-50V-20%" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37436/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09824"/>
-<attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1.0UF" prefix="C">
-<description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-16V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-00868"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-16V-10%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-12417"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-(+80/-20%)" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11625"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-50V-10%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37426/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09822"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37429/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08064"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="0.1UF" prefix="C">
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -1752,45 +1533,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08390"/>
 <attribute name="VALUE" value="0.1uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="100PF" prefix="C">
-<description>&lt;h3&gt;100pF/0.1nF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37414/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07883"/>
-<attribute name="VALUE" value="100pF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-50V-5%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37413/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-13458" constant="no"/>
-<attribute name="VALUE" value="100PF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3830,6 +3572,54 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X04_1MM_RA" urn="urn:adsk.eagle:footprint:37714/1">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:footprint:37987/1">
+<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="-2" y1="-10.16" x2="-2" y2="-8" width="0.3048" layer="20"/>
+<wire x1="-2" y1="-8" x2="4" y2="-8" width="0.3048" layer="20"/>
+<wire x1="4" y1="-8" x2="4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="4" y1="-6" x2="-4" y2="-6" width="0.3048" layer="20"/>
+<wire x1="-4" y1="-6" x2="-4" y2="-10.16" width="0.3048" layer="20"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-4" y1="-8" x2="4" y2="-6" layer="46"/>
+<rectangle x1="-4" y1="-10" x2="-2" y2="-8" layer="46"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SAMTECH_FTSH-105-01" urn="urn:adsk.eagle:package:38289/1" type="box">
@@ -3861,6 +3651,25 @@ CONN_05x2
 <packageinstance name="2X5-PTH-1.27MM"/>
 </packageinstances>
 </package3d>
+<package3d name="1X04_1MM_RA" urn="urn:adsk.eagle:package:38096/1" type="box">
+<description>SMD- 4 Pin Right Angle 
+Specifications:
+Pin count:4
+Pin pitch:0.1"
+
+Example device(s):
+CONN_04
+</description>
+<packageinstances>
+<packageinstance name="1X04_1MM_RA"/>
+</packageinstances>
+</package3d>
+<package3d name="1X04_1MM_RA_STRESSRELIEF" urn="urn:adsk.eagle:package:38303/1" type="box">
+<description>Qwiic connector with milled cutout. Sliding the cable into this slot prevents the cable from coming unplugged.</description>
+<packageinstances>
+<packageinstance name="1X04_1MM_RA_STRESSRELIEF"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CORTEX_DEBUG">
@@ -3882,6 +3691,28 @@ CONN_05x2
 <wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
 <text x="-12.7" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-12.7" y="-9.906" size="1.778" layer="96" font="vector">&gt;Value</text>
+</symbol>
+<symbol name="I2C_STANDARD-1">
+<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header&lt;/h3&gt;
+&lt;p&gt;SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;</description>
+<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-4.572" y="2.54" size="1.778" layer="94" font="vector" align="center-left">SDA</text>
+<text x="-4.572" y="0" size="1.778" layer="94" font="vector" align="center-left">VCC</text>
+<text x="-4.572" y="-2.54" size="1.778" layer="94" font="vector" align="center-left">GND</text>
+<text x="-4.572" y="5.08" size="1.778" layer="94" font="vector" align="center-left">SCL</text>
+<pin name="GND" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="VCC" x="7.62" y="0" visible="pad" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="SDA" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="SCL" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3941,6 +3772,47 @@ PTH and SMD connector options available.&lt;/p&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="QWIIC_CONNECTOR" prefix="J" uservalue="yes">
+<description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
+An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
+
+&lt;br&gt;&lt;br&gt;
+
+We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14205”&gt;100mm&lt;/a&gt;, &lt;a href=”https://www.sparkfun.com/products/14206”&gt;50mm&lt;/a&gt;, and &lt;a href=”https://www.sparkfun.com/products/14207”&gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href=”https://www.sparkfun.com/products/14323”&gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
+<gates>
+<gate name="J1" symbol="I2C_STANDARD-1" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="JS-1MM" package="1X04_1MM_RA">
+<connects>
+<connect gate="J1" pin="GND" pad="1"/>
+<connect gate="J1" pin="SCL" pad="4"/>
+<connect gate="J1" pin="SDA" pad="3"/>
+<connect gate="J1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38096/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SR" package="1X04_1MM_RA_STRESSRELIEF">
+<connects>
+<connect gate="J1" pin="GND" pad="1"/>
+<connect gate="J1" pin="SCL" pad="4"/>
+<connect gate="J1" pin="SDA" pad="3"/>
+<connect gate="J1" pin="VCC" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38303/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3962,10 +3834,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C13" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="TANTALUM-2917(7343-METRIC)" package3d_urn="urn:adsk.eagle:package:16290891/2" technology="_" value="220uF"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="1.0uF"/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="100PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100pF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BTN1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
 <part name="BTN2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
@@ -4018,6 +3886,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CORTEX_DEBUG" device="_SMD" package3d_urn="urn:adsk.eagle:package:38289/1"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -4054,24 +3923,8 @@ PTH and SMD connector options available.&lt;/p&gt;
 <attribute name="NAME" x="305.816" y="76.835" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="305.816" y="72.009" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C14" gate="G$1" x="312.42" y="73.66" smashed="yes">
-<attribute name="NAME" x="313.944" y="76.581" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="313.944" y="71.501" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C15" gate="G$1" x="320.04" y="73.66" smashed="yes">
-<attribute name="NAME" x="321.564" y="76.581" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="321.564" y="71.501" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C16" gate="G$1" x="327.66" y="73.66" smashed="yes">
-<attribute name="NAME" x="329.184" y="76.581" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="329.184" y="71.501" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C17" gate="G$1" x="335.28" y="73.66" smashed="yes">
-<attribute name="NAME" x="336.804" y="76.581" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="336.804" y="71.501" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND3" gate="1" x="335.28" y="60.96" smashed="yes">
-<attribute name="VALUE" x="332.74" y="58.42" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="304.8" y="63.5" smashed="yes">
+<attribute name="VALUE" x="302.26" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="BTN1" gate="G$1" x="251.46" y="22.86" smashed="yes">
 <attribute name="NAME" x="251.46" y="27.686" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -4240,6 +4093,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 </instance>
 <instance part="GND16" gate="1" x="104.14" y="50.8" smashed="yes">
 <attribute name="VALUE" x="101.6" y="48.26" size="1.778" layer="96"/>
+</instance>
+<instance part="J4" gate="J1" x="320.04" y="76.2" smashed="yes">
+<attribute name="VALUE" x="314.96" y="70.866" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="314.96" y="84.074" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -4561,6 +4418,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <wire x1="228.6" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="228.6" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="J1" pin="SDA"/>
+<wire x1="327.66" y1="78.74" x2="337.82" y2="78.74" width="0.1524" layer="91"/>
+<label x="330.2" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DIO_4" class="0">
 <segment>
@@ -4572,6 +4434,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="J1" gate="G$1" pin="18"/>
 <wire x1="228.6" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <label x="228.6" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J1" pin="SCL"/>
+<wire x1="327.66" y1="81.28" x2="337.82" y2="81.28" width="0.1524" layer="91"/>
+<label x="330.2" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO_3" class="0">
@@ -4603,26 +4470,9 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="228.6" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="83.82" x2="320.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="83.82" x2="327.66" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="83.82" x2="335.28" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="83.82" x2="335.28" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="78.74" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="78.74" x2="320.04" y2="83.82" width="0.1524" layer="91"/>
-<junction x="320.04" y="83.82"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="327.66" y1="78.74" x2="327.66" y2="83.82" width="0.1524" layer="91"/>
-<junction x="327.66" y="83.82"/>
-<wire x1="335.28" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="335.28" y="83.82"/>
-<label x="340.36" y="83.82" size="1.778" layer="95"/>
+<label x="304.8" y="78.74" size="1.778" layer="95" rot="R90"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="304.8" y1="78.74" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="83.82" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
-<junction x="312.42" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -4642,6 +4492,11 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="J3" gate="G$1" pin="VCC"/>
 <wire x1="109.22" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <label x="104.14" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J1" pin="VCC"/>
+<wire x1="327.66" y1="76.2" x2="337.82" y2="76.2" width="0.1524" layer="91"/>
+<label x="332.74" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO_30" class="0">
@@ -4812,28 +4667,6 @@ PTH and SMD connector options available.&lt;/p&gt;
 <label x="228.6" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="71.12" x2="304.8" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="304.8" y1="66.04" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="66.04" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="66.04" x2="335.28" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="66.04" x2="335.28" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="71.12" x2="312.42" y2="66.04" width="0.1524" layer="91"/>
-<junction x="312.42" y="66.04"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="320.04" y1="71.12" x2="320.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="320.04" y="66.04"/>
-<pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="71.12" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
-<junction x="327.66" y="66.04"/>
-<wire x1="335.28" y1="63.5" x2="335.28" y2="66.04" width="0.1524" layer="91"/>
-<junction x="335.28" y="66.04"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
@@ -4968,6 +4801,16 @@ PTH and SMD connector options available.&lt;/p&gt;
 <pinref part="J1" gate="G$1" pin="19"/>
 <wire x1="228.6" y1="93.98" x2="236.22" y2="93.98" width="0.1524" layer="91"/>
 <label x="231.14" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="304.8" y1="71.12" x2="304.8" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J1" pin="GND"/>
+<wire x1="327.66" y1="73.66" x2="337.82" y2="73.66" width="0.1524" layer="91"/>
+<label x="332.74" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BAT" class="0">
