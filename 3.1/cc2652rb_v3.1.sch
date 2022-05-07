@@ -3748,9 +3748,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R1" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="100k"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RST" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST-2" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
@@ -3862,16 +3859,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </instance>
 <instance part="P+1" gate="1" x="101.6" y="104.14" smashed="yes">
 <attribute name="VALUE" x="99.06" y="99.06" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R1" gate="G$1" x="220.98" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="220.98" y="39.116" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-</instance>
-<instance part="C3" gate="G$1" x="218.44" y="22.86" smashed="yes">
-<attribute name="NAME" x="219.964" y="25.781" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="219.964" y="20.701" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND8" gate="1" x="218.44" y="15.24" smashed="yes">
-<attribute name="VALUE" x="215.9" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="292.1" y="81.28" smashed="yes" rot="R90">
 <attribute name="VALUE" x="294.64" y="78.74" size="1.778" layer="96" rot="R90"/>
@@ -3990,15 +3977,8 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <nets>
 <net name="RESET" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="30.48" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RESET_N"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="30.48" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
-<junction x="208.28" y="40.64"/>
+<wire x1="200.66" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 <label x="203.2" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -4362,11 +4342,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <wire x1="337.82" y1="91.44" x2="345.44" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="40.64" x2="236.22" y2="40.64" width="0.1524" layer="91"/>
-<label x="231.14" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="373.38" y1="83.82" x2="375.92" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
@@ -4567,11 +4542,6 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="86.36" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="20.32" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
