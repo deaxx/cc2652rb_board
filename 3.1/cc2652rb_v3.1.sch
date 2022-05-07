@@ -3718,6 +3718,62 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
+<library name="discretes-dev">
+<packages>
+<package name="CAPC1005X40N">
+<text x="-0.95" y="0.63" size="0.5" layer="25">&gt;NAME</text>
+<wire x1="0.53" y1="-0.28" x2="-0.53" y2="-0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="0.53" y1="-0.28" x2="0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.53" y1="-0.28" x2="-0.53" y2="0.28" width="0.127" layer="51"/>
+<wire x1="-0.887909375" y1="-0.4865" x2="0.875975" y2="-0.483596875" width="0.05" layer="39"/>
+<wire x1="-0.887909375" y1="0.4865" x2="0.875975" y2="0.489403125" width="0.05" layer="39"/>
+<wire x1="-0.887909375" y1="-0.4865" x2="-0.887909375" y2="0.4865" width="0.05" layer="39"/>
+<wire x1="0.875975" y1="-0.483596875" x2="0.875975" y2="0.489403125" width="0.05" layer="39"/>
+<smd name="1" x="-0.432" y="0" dx="0.54" dy="0.6" layer="1" roundness="50"/>
+<smd name="2" x="0.432" y="0" dx="0.54" dy="0.6" layer="1" roundness="50"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CAP0402">
+<wire x1="0" y1="1.27" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<text x="1.524" y="1.651" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-3.429" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
+<rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
+<pin name="1" x="0" y="3.81" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-3.81" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAP0402" prefix="C">
+<description>CAP, 0402</description>
+<gates>
+<gate name="G$1" symbol="CAP0402" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" RESISTOR, 0402 0.063W 1% 3M6; Resistance:3.6Mohm; Resistance Tolerance:± 1%; Power Rating:0.063W; Voltage Rating:50V; Series:RC32H; Temperature Coefficient:± 100ppm/°C; Resistor Element Type:Thick Film; Resistor Case Style:0402; No. of Pins:2; SVHC:No SVHC; Case Style:0402; External Length / Height:1mm; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; External Depth:0.35mm; External Width:0.5mm; Operating Temperature Range:-55°C to +155°C; Overload Voltage:100V "/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MP" value="RC0402FR-073M6L"/>
+<attribute name="PACKAGE" value="1005 Panasonic Electronic Components"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0402FR-073M6L/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3766,7 +3822,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q3" library="SI2323DS" deviceset="SI2323DS" device=""/>
 <part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT60J" device="" package3d_urn="urn:adsk.eagle:package:43461/1"/>
-<part name="R11" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="10k"/>
+<part name="R11" library="RC0402FR-073M6L" deviceset="RC0402FR-073M6L" device="" value="100k"/>
 <part name="BT1" library="Battery Holder_2" deviceset="79527141" device="" package3d_urn="urn:adsk.eagle:package:12584890/3"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="TPD2E001DZDR" deviceset="TPD2E001DZDR" device=""/>
@@ -3778,16 +3834,19 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="ok-xtal-osc-dev" deviceset="48.000MHZ_CX2016DB48000C0FPLC1" device="" value="Q22FA12800150"/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
+<part name="Y2" library="ok-xtal-osc-dev" deviceset="48.000MHZ_CX2016DB48000C0FPLC1" device="" value="Q22FA12800150"/>
+<part name="C20" library="discretes-dev" deviceset="CAP0402" device="" value="7p"/>
+<part name="C22" library="discretes-dev" deviceset="CAP0402" device="" value="7p"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="I2C" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:38096/1"/>
+<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="210.82" y1="96.52" x2="220.98" y2="86.36" width="0.3048" layer="94"/>
-<wire x1="210.82" y1="86.36" x2="220.98" y2="96.52" width="0.3048" layer="94"/>
+<wire x1="215.9" y1="99.06" x2="226.06" y2="88.9" width="0.3048" layer="94"/>
+<wire x1="215.9" y1="88.9" x2="226.06" y2="99.06" width="0.3048" layer="94"/>
 <wire x1="53.34" y1="58.42" x2="86.36" y2="33.02" width="0.508" layer="94"/>
 <wire x1="53.34" y1="33.02" x2="83.82" y2="58.42" width="0.508" layer="94"/>
 </plain>
@@ -3958,18 +4017,27 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <instance part="GND11" gate="1" x="-15.24" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-17.78" y="53.34" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="Y1" gate="G$1" x="215.9" y="91.44" smashed="yes">
-<attribute name="NAME" x="222.25" y="91.44" size="1.778" layer="95"/>
-</instance>
-<instance part="GND19" gate="1" x="213.36" y="83.82" smashed="yes">
-<attribute name="VALUE" x="210.82" y="81.28" size="1.778" layer="96"/>
-</instance>
-<instance part="GND21" gate="1" x="218.44" y="83.82" smashed="yes">
-<attribute name="VALUE" x="215.9" y="81.28" size="1.778" layer="96"/>
-</instance>
 <instance part="I2C" gate="J1" x="116.84" y="30.48" smashed="yes">
 <attribute name="VALUE" x="111.76" y="25.146" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="111.76" y="38.354" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="Y2" gate="G$1" x="220.98" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="223.52" y="97.79" size="1.778" layer="95"/>
+</instance>
+<instance part="C20" gate="G$1" x="215.9" y="83.82" smashed="yes">
+<attribute name="NAME" x="217.424" y="85.471" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="C22" gate="G$1" x="215.9" y="104.14" smashed="yes">
+<attribute name="NAME" x="217.424" y="105.791" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND19" gate="1" x="226.06" y="86.36" smashed="yes">
+<attribute name="VALUE" x="223.52" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND21" gate="1" x="215.9" y="78.74" smashed="yes">
+<attribute name="VALUE" x="213.36" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="GND23" gate="1" x="215.9" y="109.22" smashed="yes" rot="R180">
+<attribute name="VALUE" x="218.44" y="111.76" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -4652,19 +4720,19 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="Y1" gate="G$1" pin="2"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="213.36" y1="86.36" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="Y1" gate="G$1" pin="4"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="218.44" y1="86.36" x2="218.44" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="I2C" gate="J1" pin="GND"/>
 <wire x1="124.46" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 <label x="127" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Y2" gate="G$1" pin="4"/>
+<wire x1="223.52" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="96.52" x2="226.06" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="91.44" x2="226.06" y2="88.9" width="0.1524" layer="91"/>
+<junction x="226.06" y="91.44"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="BAT" class="0">
@@ -4862,25 +4930,32 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <label x="33.02" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="X48M_P" class="0">
+<net name="N$1" class="0">
 <segment>
-<pinref part="Y1" gate="G$1" pin="1"/>
+<pinref part="Y2" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="91.44" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="88.9" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="X48N-P"/>
-<wire x1="200.66" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="88.9" x2="215.9" y2="87.63" width="0.1524" layer="91"/>
+<junction x="215.9" y="88.9"/>
 </segment>
 </net>
-<net name="X48M_N" class="0">
+<net name="N$4" class="0">
 <segment>
-<pinref part="Y1" gate="G$1" pin="3"/>
-<wire x1="220.98" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="91.44" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="Y2" gate="G$1" pin="3"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="99.06" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="99.06" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="X48M-N"/>
-<wire x1="220.98" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="220.98" y1="82.55" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="100.33" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<junction x="215.9" y="99.06"/>
 </segment>
 </net>
 </nets>
